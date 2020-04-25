@@ -1,0 +1,18 @@
+{
+  "editor.fontSize": 15,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace"
+  
+  // コードジャンプ。必要らしい
+  "ruby.intellisense": "rubyLocate",
+
+  // emmetを.erbにも適用
+  "emmet.includeLanguages": {
+    "erb": "html"},
+
+    // .~~.erbも.erb拡張子と認識する
+  "files.associations": {
+    "*.erb": "erb"
+  },
+  
+}
